@@ -12,6 +12,24 @@
 		151E8D6C21AE4FF200948394 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151E8D6A21AE4FF200948394 /* Main.storyboard */; };
 		151E8D6E21AE4FF300948394 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 151E8D6D21AE4FF300948394 /* Assets.xcassets */; };
 		151E8D7121AE4FF300948394 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 151E8D6F21AE4FF300948394 /* LaunchScreen.storyboard */; };
+		151E8D7921AE525F00948394 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E8D7821AE525F00948394 /* CategoryCell.swift */; };
+		151E8D9121AFBA6600948394 /* MovieCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E8D9021AFBA6600948394 /* MovieCategory.swift */; };
+		151E8D9321AFBB4900948394 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E8D9221AFBB4900948394 /* Movie.swift */; };
+		151E8D9521AFBB5800948394 /* FeaturedMovies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E8D9421AFBB5800948394 /* FeaturedMovies.swift */; };
+		151E8D9721AFBE0600948394 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 151E8D9621AFBE0600948394 /* movies.json */; };
+		151E8D9A21AFC13B00948394 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E8D9921AFC13B00948394 /* Header.swift */; };
+		151E8D9F21AFC51200948394 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E8D9E21AFC51200948394 /* String.swift */; };
+		151E8DA121AFFC5A00948394 /* CustomMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E8DA021AFFC5A00948394 /* CustomMenuHeaderView.swift */; };
+		151E8DA321AFFD5300948394 /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E8DA221AFFD5300948394 /* ProfileImageView.swift */; };
+		151E8DA521AFFEEF00948394 /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E8DA421AFFEEF00948394 /* SpacerView.swift */; };
+		151E8DA921AFFF5600948394 /* ProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E8DA821AFFF5600948394 /* ProfileCell.swift */; };
+		151E8DAD21B005F200948394 /* BaseSlidingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E8DAC21B005F200948394 /* BaseSlidingController.swift */; };
+		151E8DAF21B0097F00948394 /* ProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E8DAE21B0097F00948394 /* ProfileController.swift */; };
+		151E8DB121B00BC200948394 /* WatchedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E8DB021B00BC200948394 /* WatchedController.swift */; };
+		151E8DB321B00BF400948394 /* WishlistsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E8DB221B00BF400948394 /* WishlistsController.swift */; };
+		151E8DB821B045DB00948394 /* MovieDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E8DB721B045DB00948394 /* MovieDetailController.swift */; };
+		151E8DBE21B07AAF00948394 /* MovieDetailDescriptionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E8DBD21B07AAF00948394 /* MovieDetailDescriptionCell.swift */; };
+		5465663860C5BAA0C38A3B78 /* Pods_ShudderProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 428FE97BD4CF4DC7D07E3619 /* Pods_ShudderProject.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +40,26 @@
 		151E8D6D21AE4FF300948394 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		151E8D7021AE4FF300948394 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		151E8D7221AE4FF300948394 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		151E8D7821AE525F00948394 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		151E8D9021AFBA6600948394 /* MovieCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCategory.swift; sourceTree = "<group>"; };
+		151E8D9221AFBB4900948394 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		151E8D9421AFBB5800948394 /* FeaturedMovies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedMovies.swift; sourceTree = "<group>"; };
+		151E8D9621AFBE0600948394 /* movies.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		151E8D9921AFC13B00948394 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		151E8D9E21AFC51200948394 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		151E8DA021AFFC5A00948394 /* CustomMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMenuHeaderView.swift; sourceTree = "<group>"; };
+		151E8DA221AFFD5300948394 /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		151E8DA421AFFEEF00948394 /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
+		151E8DA821AFFF5600948394 /* ProfileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCell.swift; sourceTree = "<group>"; };
+		151E8DAC21B005F200948394 /* BaseSlidingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSlidingController.swift; sourceTree = "<group>"; };
+		151E8DAE21B0097F00948394 /* ProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileController.swift; sourceTree = "<group>"; };
+		151E8DB021B00BC200948394 /* WatchedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchedController.swift; sourceTree = "<group>"; };
+		151E8DB221B00BF400948394 /* WishlistsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistsController.swift; sourceTree = "<group>"; };
+		151E8DB721B045DB00948394 /* MovieDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailController.swift; sourceTree = "<group>"; };
+		151E8DBD21B07AAF00948394 /* MovieDetailDescriptionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailDescriptionCell.swift; sourceTree = "<group>"; };
+		428FE97BD4CF4DC7D07E3619 /* Pods_ShudderProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShudderProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7496874A0F256D6CEF38FB85 /* Pods-ShudderProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShudderProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShudderProject/Pods-ShudderProject.release.xcconfig"; sourceTree = "<group>"; };
+		B7783F99F6D55CA0F217E1FE /* Pods-ShudderProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShudderProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShudderProject/Pods-ShudderProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +67,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5465663860C5BAA0C38A3B78 /* Pods_ShudderProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B129B72F21D098A4C3FDC1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				428FE97BD4CF4DC7D07E3619 /* Pods_ShudderProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		151E8D5A21AE4FF200948394 = {
 			isa = PBXGroup;
 			children = (
 				151E8D6521AE4FF200948394 /* ShudderProject */,
 				151E8D6421AE4FF200948394 /* Products */,
+				2182C18BC7E3467ECB7824F6 /* Pods */,
+				0B129B72F21D098A4C3FDC1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +103,88 @@
 		151E8D6521AE4FF200948394 /* ShudderProject */ = {
 			isa = PBXGroup;
 			children = (
+				151E8DAA21B005CE00948394 /* Controllers */,
+				151E8D9D21AFC50700948394 /* Extensions */,
+				151E8D9821AFC11A00948394 /* Views */,
+				151E8D8F21AFB9E200948394 /* Models */,
+				151E8D8C21AFB94800948394 /* Files */,
 				151E8D6621AE4FF200948394 /* AppDelegate.swift */,
-				151E8D6821AE4FF200948394 /* ViewController.swift */,
 				151E8D6A21AE4FF200948394 /* Main.storyboard */,
 				151E8D6D21AE4FF300948394 /* Assets.xcassets */,
 				151E8D6F21AE4FF300948394 /* LaunchScreen.storyboard */,
 				151E8D7221AE4FF300948394 /* Info.plist */,
 			);
 			path = ShudderProject;
+			sourceTree = "<group>";
+		};
+		151E8D8C21AFB94800948394 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				151E8D9621AFBE0600948394 /* movies.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		151E8D8F21AFB9E200948394 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				151E8D9021AFBA6600948394 /* MovieCategory.swift */,
+				151E8D9221AFBB4900948394 /* Movie.swift */,
+				151E8D9421AFBB5800948394 /* FeaturedMovies.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		151E8D9821AFC11A00948394 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				151E8D9921AFC13B00948394 /* Header.swift */,
+				151E8DA021AFFC5A00948394 /* CustomMenuHeaderView.swift */,
+				151E8DA221AFFD5300948394 /* ProfileImageView.swift */,
+				151E8DA421AFFEEF00948394 /* SpacerView.swift */,
+				151E8DA821AFFF5600948394 /* ProfileCell.swift */,
+				151E8D7821AE525F00948394 /* CategoryCell.swift */,
+				151E8DBD21B07AAF00948394 /* MovieDetailDescriptionCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		151E8D9D21AFC50700948394 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				151E8D9E21AFC51200948394 /* String.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		151E8DAA21B005CE00948394 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				151E8DAB21B005D500948394 /* Base */,
+				151E8DAE21B0097F00948394 /* ProfileController.swift */,
+				151E8D6821AE4FF200948394 /* ViewController.swift */,
+				151E8DB021B00BC200948394 /* WatchedController.swift */,
+				151E8DB221B00BF400948394 /* WishlistsController.swift */,
+				151E8DB721B045DB00948394 /* MovieDetailController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		151E8DAB21B005D500948394 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				151E8DAC21B005F200948394 /* BaseSlidingController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		2182C18BC7E3467ECB7824F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7783F99F6D55CA0F217E1FE /* Pods-ShudderProject.debug.xcconfig */,
+				7496874A0F256D6CEF38FB85 /* Pods-ShudderProject.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 151E8D7521AE4FF300948394 /* Build configuration list for PBXNativeTarget "ShudderProject" */;
 			buildPhases = (
+				47760F962104D1EF0E0CB948 /* [CP] Check Pods Manifest.lock */,
 				151E8D5F21AE4FF200948394 /* Sources */,
 				151E8D6021AE4FF200948394 /* Frameworks */,
 				151E8D6121AE4FF200948394 /* Resources */,
+				0CA102597BD28240EDD7C041 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,19 +249,75 @@
 			files = (
 				151E8D7121AE4FF300948394 /* LaunchScreen.storyboard in Resources */,
 				151E8D6E21AE4FF300948394 /* Assets.xcassets in Resources */,
+				151E8D9721AFBE0600948394 /* movies.json in Resources */,
 				151E8D6C21AE4FF200948394 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CA102597BD28240EDD7C041 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShudderProject/Pods-ShudderProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShudderProject/Pods-ShudderProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47760F962104D1EF0E0CB948 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShudderProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		151E8D5F21AE4FF200948394 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				151E8D9121AFBA6600948394 /* MovieCategory.swift in Sources */,
+				151E8DAD21B005F200948394 /* BaseSlidingController.swift in Sources */,
+				151E8DB321B00BF400948394 /* WishlistsController.swift in Sources */,
 				151E8D6921AE4FF200948394 /* ViewController.swift in Sources */,
+				151E8DA521AFFEEF00948394 /* SpacerView.swift in Sources */,
+				151E8DA321AFFD5300948394 /* ProfileImageView.swift in Sources */,
+				151E8D9521AFBB5800948394 /* FeaturedMovies.swift in Sources */,
+				151E8D9A21AFC13B00948394 /* Header.swift in Sources */,
+				151E8DAF21B0097F00948394 /* ProfileController.swift in Sources */,
+				151E8DA121AFFC5A00948394 /* CustomMenuHeaderView.swift in Sources */,
 				151E8D6721AE4FF200948394 /* AppDelegate.swift in Sources */,
+				151E8D7921AE525F00948394 /* CategoryCell.swift in Sources */,
+				151E8DA921AFFF5600948394 /* ProfileCell.swift in Sources */,
+				151E8D9F21AFC51200948394 /* String.swift in Sources */,
+				151E8DB121B00BC200948394 /* WatchedController.swift in Sources */,
+				151E8DB821B045DB00948394 /* MovieDetailController.swift in Sources */,
+				151E8DBE21B07AAF00948394 /* MovieDetailDescriptionCell.swift in Sources */,
+				151E8D9321AFBB4900948394 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +461,7 @@
 		};
 		151E8D7621AE4FF300948394 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7783F99F6D55CA0F217E1FE /* Pods-ShudderProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +480,7 @@
 		};
 		151E8D7721AE4FF300948394 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7496874A0F256D6CEF38FB85 /* Pods-ShudderProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

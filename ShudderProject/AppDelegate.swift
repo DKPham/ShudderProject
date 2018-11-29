@@ -13,9 +13,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window = UIWindow()
+        window?.makeKeyAndVisible()
+        window?.rootViewController = BaseSlidingController()
+//        let layout = UICollectionViewFlowLayout()
+//        let featuredController = FeaturedController(collectionViewLayout: layout)
+//        window?.rootViewController = UINavigationController(rootViewController: FeaturedController())
+//
+        var navigationBarAppearance = UINavigationBar.appearance()
+        navigationBarAppearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor : #colorLiteral(red: 0.7326396108, green: 0, blue: 0.01770640165, alpha: 1)]
         return true
     }
 
